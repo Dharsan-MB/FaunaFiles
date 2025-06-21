@@ -138,9 +138,6 @@ nav{
 
 }
 
-.contact-body-right{
-}
-
 #visit-head{
     color: #FAFFCA;
 }
@@ -149,14 +146,22 @@ nav{
     min-width:1270px;
     min-height: 750px;
     background: linear-gradient(rgba(0,0,0,.5), rgba(0, 255, 0, 0.1)), url(./public/map.png);
-
-    /* background-image: url(./public/map.png) no-repeat 1 50% ; */
-
 }
 
-/* .map img{
-        opacity: 0.1;
+/* .about-bg{
+     min-width:1080px;
+    min-height: 1370px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0, 255, 0, 0.1)), url(./public/about.jpg);
 
+     text-align: center;
+    color: #FAFFCA;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.about-bg p{
+   padding: 0 8rem;
+    text-align: left;
 } */
 
 .map h1{

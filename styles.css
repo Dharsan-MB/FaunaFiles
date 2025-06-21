@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 0.5rem 1rem 0.5rem 3rem;
     background-color:#84AE92 ;
     color :#FAFFCA;
     font-weight: 700;
@@ -106,9 +106,6 @@ nav{
     padding: 0 8rem;
 }
 
-.card-container{
-    
-}
 
 .card-body{
     display: flex;
@@ -124,6 +121,57 @@ nav{
 .card-body img{
     width: 800px;
     border-radius: 1rem;
-    box-shadow: 0 0 20px #EEEEEE ;
+    box-shadow: 0 0 20px #EEEEEE;
     
+}
+
+.contact-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact-body-left{
+    align-self: center;
+    min-width: 50%;  
+
+}
+
+.contact-body-right{
+}
+
+#visit-head{
+    color: #FAFFCA;
+}
+
+.map{
+    min-width:1270px;
+    min-height: 750px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0, 255, 0, 0.1)), url(./public/map.png);
+
+    /* background-image: url(./public/map.png) no-repeat 1 50% ; */
+
+}
+
+/* .map img{
+        opacity: 0.1;
+
+} */
+
+.map h1{
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+
+
+}
+
+#arrow{
+    position: absolute;
+    bottom: 30px;
+    width: 30px;
+    background-color: #84AE92;
+    border-radius: 50%;
+    padding: .5rem;
 }
